@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(
+    135deg,
+    #020617,
+    #0f172a,
+    #1e3a8a,
+    #4c1d95
+  );
+  color: #e2e8f0;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.card {
+  background: rgba(15, 23, 42, 0.8);
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 600px;
+  margin: auto;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 0 40px rgba(0,0,0,0.6);
+}
+
+.quote {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.author {
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.new-btn {
+  background: linear-gradient(135deg, #22d3ee, #3b82f6);
+  color: white;
+}
+
+.like-btn {
+  background: linear-gradient(135deg, #f43f5e, #ec4899);
+  color: white;
+}
+
+.list {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background: rgba(30, 41, 59, 0.7);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.unlike-btn {
+  background: #ef4444;
+  color: white;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;   /* 👈 THIS adds space above buttons */
+}
